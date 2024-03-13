@@ -6,7 +6,7 @@ const App = () => {
     <>
     <h1>Covert</h1>
     <CurrencyRow/>
-    <div>=</div>
+    <div className="equals">=</div>
     <CurrencyRow/>
     </>
   )
