@@ -12,7 +12,6 @@ const App = () => {
   const [exchangeRate, setExchangeRate] = useState();
   const [amount, setAmount] = useState(1);
   const [amountInFromCurrency, setAmountInFromCurrency] = useState(true);
-  console.log(exchangeRate);
 
   let toAmount, fromAmount;
   if (amountInFromCurrency) {
